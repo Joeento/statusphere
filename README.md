@@ -16,4 +16,5 @@ flask/bin/pip install flask-wtf==0.8.4
 flask/bin/pip install pytz==2013b
 flask/bin/pip install flask-babel==0.8
 flask/bin/pip install flup
-4. Run: pip install tweepy
+4. Run: flask/bin/pip install tweepy
+5. pip install Jinja2

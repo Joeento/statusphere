@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block body %}
+	Seems like you're not logged in, <a href="{{redirect_url}}" target="_blank">fix that?</a>
+	<form action="result.html" method="GET">
+		<input type="input" placeholder="code" name="code"/>
+		<input type="submit" name="submit-code"/>
+	</form>
+{% endblock %}
